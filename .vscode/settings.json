@@ -1,0 +1,118 @@
+{
+  "workbench.colorTheme": "Light 2026",
+  "workbench.colorCustomizations": {
+    "editor.wordHighlightBackground": "#A1A1A130",
+    "editor.wordHighlightTextBackground": "#A1A1A130",
+    "editor.hoverHighlightBackground": "#A1A1A130",
+    "editor.selectionBackground": "#00BEEA30",
+    "editor.selectionHighlightBackground": "#00BEEA30",
+    "editorIndentGuide.background1": "#00BEEA",
+    "editorIndentGuide.activeBackground1": "#3EF9E7",
+    "editorIndentGuide.background2": "#CA2ADD",
+    "editorIndentGuide.activeBackground2": "#FF65DA",
+    "editorIndentGuide.background3": "#0D8FEE",
+    "editorIndentGuide.activeBackground3": "#3EF9E7",
+    "editorIndentGuide.background4": "#9026D8",
+    "editorIndentGuide.activeBackground4": "#FF65DA",
+    "editorIndentGuide.background5": "#00BEEA",
+    "editorIndentGuide.activeBackground5": "#3EF9E7",
+    "editorIndentGuide.background6": "#CA2ADD",
+    "editorIndentGuide.activeBackground6": "#FF65DA",
+    "editorBracketHighlight.foreground1": "#00BEEA",
+    "editorBracketHighlight.foreground2": "#CA2ADD",
+    "editorBracketHighlight.foreground3": "#0D8FEE",
+    "editorBracketHighlight.foreground4": "#9026D8",
+    "editorBracketHighlight.foreground5": "#00BEEA",
+    "editorBracketHighlight.foreground6": "#CA2ADD",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#201E33",
+    "editorBracketMatch.background": "#A1A1A130"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#A1A1A1",
+    "functions": "#00BEEA",
+    "keywords": "#CA2ADD",
+    "numbers": "#9026D8",
+    "strings": "#9026D8",
+    "types": "#0D8FEE",
+    "textMateRules": [
+      {
+        "scope": [
+          "variable",
+          "variable.other.constant",
+          "entity.name.namespace",
+          "keyword.operator",
+          "support.variable",
+          "meta.preprocessor.string.cs",
+          "source.sql",
+          "source.cs",
+          "variable.other.enummember"
+        ],
+        "settings": {
+          "foreground": "#201E33"
+        }
+      },
+      {
+        "scope": [
+          "keyword.other.DML.sql",
+          "keyword.other.data-integrity.sql",
+          "keyword.other.alias.sql",
+          "constant.other.option",
+          "meta.statement.command.shell",
+          "constant.character.escape.line-continuation.shell",
+          "entity.name.function.preprocessor",
+          "entity.name.variable.field.cs",
+          "variable.other.property"
+        ],
+        "settings": {
+          "foreground": "#00BEEA"
+        }
+      },
+      {
+        "scope": [
+          "keyword.other.sql",
+          "keyword.other.DDL.create.II.sql",
+          "keyword.other.order.sql",
+          "entity.name.command.shell"
+        ],
+        "settings": {
+          "foreground": "#CA2ADD"
+        }
+      },
+      {
+        "scope": [
+          "constant.language.python",
+          "constant.character.format.placeholder.other.python",
+          "keyword.operator.logical.python",
+          "constant.character.escape",
+          "string.unquoted.argument.shell",
+          "string.quoted.single.shell",
+          "string.quoted.double.shell"
+        ],
+        "settings": {
+          "foreground": "#9026D8"
+        }
+      },
+      {
+        "scope": [
+          "keyword",
+          "support.type.property-name.json",
+          "support.type.property-name.json punctuation",
+          "variable.other.normal.shell"
+        ],
+        "settings": {
+          "foreground": "#0D8FEE"
+        }
+      }
+    ]
+  },
+  "editor.fontFamily": "Courier New, monospace",
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 16,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO",
+      "color": "#201E33",
+      "backgroundColor": "#3EF9E7"
+    },
+  ]
+}
